@@ -1,0 +1,32 @@
+.playerScore {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20rem;
+  font-size: 3em;
+  font-weight: bolder;
+  border-radius: 0.6rem;
+  background-color: #f1f2f7;
+  box-shadow: 0 0 10px #f1f2f7;
+  margin: 2rem auto;
+  /* padding: 0.5rem 1rem; */
+}
+.score {
+  width: 100%;
+  text-align: center;
+  padding: 0.5rem 0;
+}
+.x-score {
+    color: #78510a;
+    border-bottom: 5px solid #78510a;
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+.o-score{
+    color:#022a38;
+    border-bottom: 5px solid  #022a38;
+    border-radius: 0 0.5rem 0.5rem 0;
+}
+.inactive{
+    border-bottom: 5px solid transparent;
+}
